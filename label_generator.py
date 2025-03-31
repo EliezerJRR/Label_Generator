@@ -3,8 +3,8 @@ import tkinter as tk
 from tkinter import ttk  # Para la tabla (Treeview)
 import os
 import re  # Para buscar patrones en nombres de archivos
-from GeneradorPDF import label_generator, limpiar_carpeta_pdf
-from win32 import win32print
+from GeneradorPDF import label_generator, limpiar_carpeta_pdf, imprimir_en_modo_raw
+import win32print
 
 # Función para generar datos en la tabla y ejecutar GeneradorPDF.py
 def generar_datos():
